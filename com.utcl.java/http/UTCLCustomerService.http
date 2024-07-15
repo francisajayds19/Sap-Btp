@@ -1,0 +1,28 @@
+@server = http://localhost:8080
+
+
+### UTCLCustomerService.Customer
+GET {{server}}/odata/v4/UTCLCustomerService/Customer
+Content-Type: application/json
+
+
+### UTCLCustomerService.CustomerAddress
+GET {{server}}/odata/v4/UTCLCustomerService/CustomerAddress
+Content-Type: application/json
+
+
+### UTCLCustomerService.CustomerType
+GET {{server}}/odata/v4/UTCLCustomerService/CustomerType
+Content-Type: application/json
+
+
+### UTCLCustomerService.CustomerType
+POST {{server}}/odata/v4/UTCLCustomerService/CustomerType
+Content-Type: application/json
+
+{
+    "id" : "bb25321d-ad6d-4c43-8c7a-b645a4502865",
+    "customerTypeId" : 123,
+    "customerType" : "DEALER"
+
+}
